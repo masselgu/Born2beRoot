@@ -22,13 +22,15 @@
 
 **Born2beRoot** is a system administration project from the 42 Network curriculum, completed at 1337 Coding School.
 
-The objective is to create and configure a secure Linux server inside a virtual machine, following a strict set of system administration and security requirements.
+The objective is to build and configure a secure Linux server using **Debian**, running inside a virtual machine. The project focuses on understanding the fundamentals of Linux system administration, server security, networking, and infrastructure management.
 
-Rather than relying on a preconfigured environment, this project involves understanding how a Linux system works internally, from disk partitioning and user management to network security, remote access, and automated system monitoring.
+Starting with a minimal Debian installation, I configured the system according to the project's requirements, covering user and group management, password policies, SSH, firewall configuration, administrative privileges, and automated system monitoring.
 
-I also went beyond the mandatory requirements by implementing bonus services, including **FTP, MongoDB, and WordPress**, to explore service deployment, database management, and web hosting in a Linux environment.
+Beyond the mandatory requirements, I implemented the bonus part, extending the server with additional services, including **FTP, MongoDB, and WordPress**.
 
-This project allowed me to gain practical experience with Linux, cybersecurity fundamentals, networking, automation, and server administration.
+This project provided hands-on experience in configuring a Linux server, managing system services, applying security principles, and exploring the deployment of databases and web applications.
+
+**The goal:** understand not only how to use Linux, but also how to configure, secure, and administer a server environment.
 
 ## 🎯 Project Objectives
 
@@ -190,7 +192,7 @@ These extensions helped reinforce the relationship between:
 
 | Category | Technologies |
 |---|---|
-| Operating System | Linux — Debian or Rocky Linux, depending on the installation |
+| Operating System | Linux — Debian|
 | Virtualization | VirtualBox or the virtualization platform used |
 | Shell Scripting | Bash |
 | Remote Administration | SSH |
